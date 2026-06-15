@@ -1,4 +1,4 @@
-package Module2.Day3.Stream.Entity;
+package Module2.day3.Stream.Entity;
 
 
 public class Loan {

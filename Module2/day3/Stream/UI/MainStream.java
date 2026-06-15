@@ -1,7 +1,7 @@
-package Module2.Day3.Stream.UI;
+package Module2.day3.Stream.UI;
 
-import Module2.Day3.Stream.Entity.Loan;
-import Module2.Day3.Stream.dao.LaoDaoImplementor;
+import Module2.day3.Stream.Entity.Loan;
+import Module2.day3.Stream.dao.LaoDaoImplementor;
 
 public class MainStream {
     public static void main(String[] args) {

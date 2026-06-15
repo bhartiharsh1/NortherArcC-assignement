@@ -1,6 +1,6 @@
-package Module2.Day3.Stream.dao;
+package Module2.day3.Stream.dao;
 
-import Module2.Day3.Stream.Entity.Loan;
+import Module2.day3.Stream.Entity.Loan;
 
 import java.util.ArrayList;
 import java.util.Comparator;

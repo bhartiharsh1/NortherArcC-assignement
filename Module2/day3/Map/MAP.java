@@ -1,4 +1,4 @@
-package Module2.Day3.Map;
+package Module2.day3.Map;
 import java.util.HashMap;
 import java.util.Map;
 public class MAP {

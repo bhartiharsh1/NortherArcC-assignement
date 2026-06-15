@@ -1,4 +1,4 @@
-package Module2.Day3.FileHandling.Writer;
+package Module2.day3.FileHandling.Writer;
 
 import java.io.FileWriter;
 import java.io.IOException;

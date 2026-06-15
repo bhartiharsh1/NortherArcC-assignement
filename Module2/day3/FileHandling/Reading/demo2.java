@@ -1,4 +1,4 @@
-package Module2.Day3.FileHandling.Reading;
+package Module2.day3.FileHandling.Reading;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package Module2.Day3.FileHandling.Stream;
+package Module2.day3.FileHandling.Stream;
 
 import java.io.FileOutputStream;
 import java.io.OutputStream;
