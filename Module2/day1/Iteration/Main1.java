@@ -1,10 +1,9 @@
 package Module2.day1.Iteration;
 
-import Module2.day1.Person;
-
 import java.util.*;
 
 public class Main1 {
+
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("harsh");
@@ -40,8 +39,8 @@ public class Main1 {
         list3.add(4);
         list3.add(7);
         System.out.println("__________________");
-        for (String str : list) {
-            System.out.println(str);
+        for (Integer num : list3) {
+            System.out.println(num);
             Iterator<Integer> itr = list3.iterator();
             System.out.println(itr.getClass().getName());
             while (itr.hasNext()) {
@@ -77,11 +76,11 @@ public class Main1 {
             }
         }
         List<Person> person = new ArrayList<>();
-        person.add(new Person("harsh", "bharti", 23));
-        person.add(new Person("kalyan", "S", 25));
-        person.add(new Person("Shashank", "sir", 46));
-        person.add(new Person("apoorup", "P", 22));
-        person.add(new Person("Nikash", "K", 23));
+        person.add(new Person("harsh", 23));
+        person.add(new Person("kalyan", 25));
+        person.add(new Person("Shashank", 46));
+        person.add(new Person("apoorup", 22));
+        person.add(new Person("Nikash", 23));
         System.out.println("__________________");
         for (Person p : person) {
             System.out.println(p);

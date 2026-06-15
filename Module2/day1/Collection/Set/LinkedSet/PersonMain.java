@@ -3,7 +3,7 @@ package Module2.day1.Collection.Set.LinkedSet;
 import java.util.LinkedHashSet;
 
 public class PersonMain {
-    public static void main(java.lang.String[] args) {
+    public static void main(String[] args) {
         LinkedHashSet<Person> set = new LinkedHashSet<>();
         set.add(new Person("Harsh", "Bharti", 23));
         set.add(new Person("Kalyan", "S", 25));

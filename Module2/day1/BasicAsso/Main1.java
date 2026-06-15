@@ -17,7 +17,6 @@ public class Main1 {
 
         System.out.println();
         
-        // Driver and Car Association
         Car car = new Car("Tesla Model S");
         Driver driver = new Driver("Harsh");
         driver.drive(car);

@@ -1,4 +1,4 @@
-package Module2.day1.FunctInterface;
+package Module2.day2.DAO_Package.FunctInterface;
 
 public class Main1 {
     public static void main(String[] args) {
