@@ -119,18 +119,7 @@ public class LoanMain {
                 case 20 -> System.out.println("Total Loans: " + loanDao.countLoans());
                 case 21 -> countByStatus();
                 case 22 -> System.out.println("Max Loan Amount: " + loanDao.getMaxLoanAmount());
-                case 23 -> System.out.println("Min Loan Amount: " + loanDao.getMinLoanAmount());
-                case 24 -> System.out.printf("Average Loan Amount: %.2f%n", loanDao.getAverageLoanAmount());
-                case 25 -> System.out.println("Total Loan Amount: " + loanDao.getTotalLoanAmount());
-                case 26 -> {
-                    System.out.println("\n--- Group By Status ---");
-                    loanDao.groupByStatus();
-                }
-                case 27 -> {
-                    System.out.println("\n--- Group By Type ---");
-                    loanDao.groupByType();
-                }
-                case 28 -> groupByTypeHaving();
+           case 28 -> groupByTypeHaving();
                 case 29 -> topNLoans();
                 case 0 -> {
                     System.out.println("Goodbye!");
