@@ -71,6 +71,7 @@ public class TodoDaoImpl implements TodoDao {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 Todo todo = new Todo();
+                
                 todo.setId(rs.getInt("id"));
                 todo.setTask(rs.getString("task"));
                 todo.setCompleted(rs.getBoolean("completed"));
